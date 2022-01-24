@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color:maroon
+    }
+
+    h3 {
+      text-align: center;
+      color:darkorange
+    }
+
+    p {
+      text-align: left;
+      color:darkred
+    }
+
+    .container {
+    max-width: 992px;
+    margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+
+  <h1>Indiana Jones</h1>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="column">
+        <img src="images/raiders.jpg">
+        <h3>Raiders Of The Lost Ark</h3>
+        <p>"Raiders Of The Lost Ark", starring Harrison Ford, is an epic tale in which an intrepid archaeologist tries to beat a band of Nazis to a unique religious relic which is central
+        to their plans for world domination. Battling against a snake phobia and a vengeful ex-girlfriend, Indiana Jones is in
+        constant peril, making hair's-breadth escapes at every turn in this celebration of the innocent adventure movies of an
+        earlier era.</p>
+      </div>
+
+      <div class="column">
+        <img src="images/temple.jpg">
+        <h3>Temple Of Doom</h3>
+        <p>"Temple Of Doom" is the second film in the Indiana Jones franchise, once again starring Harrison Ford. It beings with Indiana Jones on the trail of fortune and glory in Old Shanghai and follows him as he is ricocheted into a dangerous
+        adventure in India. With his faithful companion Short Round and nightclub singer Willie Scott, Indie goes in search of
+        the magical Sankara stone, and uncovers an ancient evil which threatens all who come into contact with it.</p>
+      </div>
+
+      <div class="column">
+        <img src="images/crusade.jpg">
+        <h3>The Last Crusade</h3>
+        <p>"The Last Crusade is he last film in the Harrison Ford Indiana Jones series. Indiana Jones sets out to rescue his father, a medievalist who has vanished while searching for
+        the Holy Grail. Following clues in the old man's notebook, Indy arrives in Venice, where he enlists the help of a
+        beautiful academic, but they are not the only ones who are on the trail, and some sinister old enemies soon come out of
+        the woodwork.</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
